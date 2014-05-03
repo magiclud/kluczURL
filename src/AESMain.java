@@ -40,6 +40,7 @@ public class AESMain {
 		
 		System.out.println(klucz);
 		
+		
 		AES.utowrzURl(klucz);
 		
 	}

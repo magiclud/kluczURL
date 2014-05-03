@@ -8,5 +8,6 @@
 	<classpathentry kind="lib" path="C:/Program Files/Java/jre7/lib/security/bcprov-ext-debug-jdk15on-150.jar"/>
 	<classpathentry kind="lib" path="C:/Program Files/Java/jre7/lib/security/bcprov-debug-jdk15on-150.jar"/>
 	<classpathentry kind="lib" path="C:/Program Files/Java/jre7/lib/security/bcprov-ext-jdk15on-150.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
