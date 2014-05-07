@@ -9,5 +9,6 @@
 	<classpathentry kind="lib" path="C:/Program Files/Java/jre7/lib/security/bcprov-debug-jdk15on-150.jar"/>
 	<classpathentry kind="lib" path="C:/Program Files/Java/jre7/lib/security/bcprov-ext-jdk15on-150.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="D:/eclipse/Semestr4/lista6Klucz/com.sun.net.ssl.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
