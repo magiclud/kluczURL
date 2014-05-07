@@ -11,7 +11,7 @@ import java.net.URLConnection;
 
 
 public class TestPolaczenia {
-	static String urlToConnect = "https://localhost:8443/Logowanie/";
+	static String urlToConnect = "https://localhost:8443/Logowanie/PoierzDaneOdKlienta";
 	static String paramToSend = "fubar";
 	static File fileToUpload = new File("D:\\Programy\\eclipseEE\\wokspace\\Logowanie\\plikTestowy.txt");
 	static String boundary;
