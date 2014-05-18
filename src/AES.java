@@ -8,6 +8,7 @@ import java.security.KeyStore;
 import java.security.KeyStoreException;
 import java.security.NoSuchAlgorithmException;
 import java.security.NoSuchProviderException;
+import java.security.Security;
 import java.security.UnrecoverableKeyException;
 import java.security.cert.CertificateException;
 
@@ -27,7 +28,10 @@ public class AES {
 	}
 
 	public String stworzKeystoreZkluczem() {
+		Security.addProvider(new org.bouncycastle.jce.provider.BouncyCastleProvider());
+
 		try {
+
 			KeyStore keyStore = KeyStore.getInstance("UBER", "BC");
 			InputStream inputStream = null;
 
